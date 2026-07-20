@@ -71,7 +71,7 @@ Predict whether a customer will:
 
 ## Evaluation table
 
-![Evauation table]](screenshots/Eva.png)
+![Evauation table](screenshots/Eva.png)
 
 
 ## Confusion Matrix
