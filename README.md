@@ -71,7 +71,7 @@ Predict whether a customer will:
 
 ## Evaluation table
 
-![Evlauation table]](screenshots/Evaluation table.png)
+![Evlauation table]](screenshots/Evaluation.png)
 
 ---
 
@@ -89,15 +89,10 @@ Predict whether a customer will:
 
 ## ROC Curve
 
-![ROC Curve](screenshots/Roc curve.png)
+![ROC Curve](screenshots/Rocurve.png)
 
 ---
 
-## Sample Customer Predictions
-
-![Predictions](screenshots/sample_predictions.png)
-
----
 
 ## 📁 Project Structure
 
