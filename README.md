@@ -1,55 +1,164 @@
-## 📌 Understanding the Dataset
+# 📊 Customer Churn Prediction System
 
-### What is this dataset about?
-
-The Telco Customer Churn dataset contains information about customers of a telecommunications company. It includes customer demographics, subscribed services, account details, billing information, and whether the customer left the company's services (churned). The dataset is commonly used for building machine learning classification models to predict customer churn.
+An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn using the IBM Telco Customer Churn dataset.
 
 ---
 
-### What real-world problem does it represent?
+## 📌 Project Overview
 
-Customer churn is one of the biggest challenges for subscription-based businesses such as telecommunications companies. Acquiring a new customer is often more expensive than retaining an existing one. This dataset represents the real-world problem of identifying customers who are likely to cancel their subscription before they actually leave.
+Customer churn is one of the biggest challenges for subscription-based businesses. Losing customers directly impacts revenue and growth.
 
----
-
-### Who benefits from solving this problem?
-
-Predicting customer churn benefits multiple stakeholders:
-
-- **Telecommunication companies** can reduce customer loss and increase revenue.
-- **Marketing teams** can design targeted retention campaigns.
-- **Customer support teams** can proactively assist high-risk customers.
-- **Business managers** can make data-driven decisions to improve customer satisfaction and loyalty.
+This project builds a Machine Learning model to predict customer churn based on customer demographics, account information, and service usage, enabling businesses to identify high-risk customers and improve retention strategies.
 
 ---
 
-### What does each row represent?
+## 🎯 Problem Statement
 
-Each row represents **one customer** of the telecommunications company. Every column describes a specific attribute of that customer, such as:
+Predict whether a customer will:
 
-- Gender
-- Senior citizen status
-- Contract type
-- Internet service
-- Monthly charges
-- Total charges
-- Tenure
-- Payment method
-- Churn status
+- ✅ Stay with the company
+- ❌ Churn (Leave the company)
 
 ---
 
-### What is the target variable?
+## 📂 Dataset
 
-The target variable is **`Churn`**.
-
-- **Yes** → The customer left the company.
-- **No** → The customer continued using the company's services.
-
-This makes the problem a **binary classification** task.
+- **Dataset:** IBM Telco Customer Churn
+- **Source:** Kaggle / IBM
+- **Records:** 7,043 Customers
+- **Features:** 21
+- **Target Variable:** Churn
 
 ---
 
-### Why is predicting the target valuable?
+## 🛠 Technologies Used
 
-Predicting customer churn allows businesses to identify customers who are at risk of leaving before they cancel their services. With these predictions, companies can offer personalized discounts, improve customer support, or provide better service experiences to retain customers. Reducing churn leads to increased customer satisfaction, improved revenue, and lower customer acquisition costs.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+- Jupyter Notebook
+
+---
+
+## 📈 Machine Learning Workflow
+
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- One-Hot Encoding
+- Feature Scaling
+- Train-Test Split
+- Logistic Regression
+- Model Evaluation
+- Sample Customer Prediction
+- Model Saving
+
+
+
+# 📷 Project Screenshots
+
+## sample predictions
+![sample 1](screenshots/prediction1.png)
+![sample 1](screenshots/prediction2.png)
+
+
+---
+
+## Evaluation table
+
+![Evlauation table]](screenshots/Evaluation table.png)
+
+---
+
+## Contract Type vs Churn
+
+![Contract vs Churn](screenshots/contract_vs_churn.png)
+
+---
+
+## Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion.png)
+
+---
+
+## ROC Curve
+
+![ROC Curve](screenshots/Roc curve.png)
+
+---
+
+## Sample Customer Predictions
+
+![Predictions](screenshots/sample_predictions.png)
+
+---
+
+## 📁 Project Structure
+
+Customer-Churn-Prediction/
+
+├── data/
+
+├── models/
+
+│ ├── churn_model.pkl
+
+│ ├── scaler.pkl
+
+│
+
+├── notebooks/
+
+│ └── churn_prediction.ipynb
+
+├── screenshots/
+
+├── requirements.txt
+
+├── README.md
+
+
+
+---
+
+## 🚀 Future Improvements
+
+- Decision Tree Classifier
+- Random Forest Classifier
+- XGBoost
+- Hyperparameter Tuning
+- Cross Validation
+- Streamlit Web Application
+- Docker Deployment
+
+---
+
+## 📚 Key Learnings
+
+Through this project, I gained practical experience in:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Classification Algorithms
+- Logistic Regression
+- Model Evaluation
+- ROC Curve Analysis
+- Machine Learning Workflow
+- Model Deployment Preparation
+
+---
+
+## 👨‍💻 Author
+
+**Prakash Kumar Badaila**
+
+
+
+⭐ If you found this project useful, feel free to star the repository.
