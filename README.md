@@ -71,15 +71,8 @@ Predict whether a customer will:
 
 ## Evaluation table
 
-![Evlauation table]](screenshots/Evaluation.png)
+![Evauation table]](screenshots/Eva.png)
 
----
-
-## Contract Type vs Churn
-
-![Contract vs Churn](screenshots/contract_vs_churn.png)
-
----
 
 ## Confusion Matrix
 
